@@ -3,7 +3,7 @@ import React from 'react';
 class Example extends React.Component {
   render() {
     // Any where else
-    return <p>Example</p>
+    return <p>Example test 2</p>
   }
 } 
 
