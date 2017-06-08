@@ -3,7 +3,11 @@ import React from 'react';
 class Example extends React.Component {
   render() {
     // Any where else
-    return <p>Example test 2</p>
+    return <div>
+      <input id="increment" value="0" />
+      <button class="btn-increment">Increment</button>
+      <button class="btn-decrement">Decrement</button>
+    </div>
   }
 } 
 
